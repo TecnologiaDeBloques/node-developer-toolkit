@@ -6,7 +6,7 @@ const toUint8Array = require('base64-to-uint8array')
 
 // Consts
 const app = express()
-const port = 666
+const port = 8081
 
 // Router
 app.get('/signature/:privateKey', (req, res) => {
